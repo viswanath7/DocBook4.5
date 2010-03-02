@@ -1,0 +1,33 @@
+<!DOCTYPE part PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.docbook.org/xml/4.4/docbookx.dtd">
+<part label="II">
+    <title>Programming with the Java API</title>
+    <partintro>
+        <para>
+            The sections in Part II present real-world examples of 
+            programming with Java.  You can study and learn from the
+            examples, and you can adapt them for use in your own programs.
+        </para>
+        
+        <para>
+            The example code in these chapters is available for downloading.  
+            See <systemitem role="url">http://www.ora.com/catalog/books/javanut</systemitem>.
+        </para>
+        
+        <literallayout>
+            <xref endterm="jnut-ch-04-title" linkend="jnut-ch-04"/>
+            <xref endterm="jnut-ch-05-title" linkend="jnut-ch-05"/>
+        </literallayout>
+        
+    </partintro>
+    
+    <chapter id="jnut-ch-04">
+        <title id="jnut-ch-04-title">Chapter 4 - ABC</title>
+        <para>...</para>
+    </chapter>
+    
+    <chapter id="jnut-ch-05">
+        <title id="jnut-ch-05-title">Chapter 5 - XYZ</title>
+        <para>...</para>
+    </chapter>
+    
+</part>

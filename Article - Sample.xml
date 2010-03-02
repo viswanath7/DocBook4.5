@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+                         "http://www.docbook.org/xml/4.4/docbookx.dtd">
+<article class="journalarticle" status="final">
+    <!-- Class identifies the type of article. As values one can have: faq, journalarticle, productsheet, specification, techreport, whitepaper -->
+    
+    <title>DocBook Tutorial</title>
+    
+    <!-- Meta-information for an Article. -->
+    <articleinfo>
+        <author><firstname>Norman</firstname><surname>Walsh</surname></author>
+        <authorinitials>ndw</authorinitials>
+        <artpagenums>339-343</artpagenums>
+        <volumenum>15</volumenum>
+        <issuenum>3</issuenum>
+        <publisher><publishername>The TeX User's Group</publishername></publisher>
+        <pubdate>1994</pubdate>
+        <title>A World Wide Web Interface to CTAN</title>
+        <titleabbrev>CTAN-Web</titleabbrev>
+        <revhistory>
+            <revision>
+                <revnumber>1.0</revnumber>
+                <date>28 Mar 1994</date>
+                <revremark>Submitted.</revremark>
+            </revision>
+            <revision>
+                <revnumber>0.5</revnumber>
+                <date>15 Feb 1994</date>
+                <revremark>First draft for review.</revremark>
+            </revision>
+        </revhistory>
+    </articleinfo>
+    
+    <!-- Class identifies the type of article. As values one can have: faq, journalarticle, productsheet, specification, techreport, whitepaper -->
+    <section>
+        <title>What is DocBook ?</title>
+        <para>DocBook is an SGML dialect developed by O'Reilly and HaL Computer
+            Systems in 1991. It is currently maintained by the Organization for the
+            Advancement of Structured Information Standards (OASIS). DocBook describes
+            the content of articles, books, technical manuals, and other documents.
+            Although DocBook is focused on technical writing styles, it is general
+            enough to describe most prose writing. In this article, I'll discuss an
+            XML variant of the DocBook DTD that is also available.
+        </para>
+    </section>
+    
+</article>

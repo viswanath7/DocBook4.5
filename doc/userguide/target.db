@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--
+	The document this was extracted from consists of a chapter that contains just a table and one sect1
+	It is a well-formed XML fragment that follows the targetdatabase.dtd
+-->
+<div element="chapter" href="#publish" number="1" targetptr="publish">
+<!-- DocBook structure elements are recorded in div tags -->
+  <ttl>Publishing DocBook Documents</ttl>
+  <!-- The ttl tag records the object's title. -->
+  <xreftext>Chapter 1</xreftext>
+  <!-- 
+  The xreftext tag records the generated text that would be output if an xref pointed to that element. 
+  This field uses the gentext strings of the stylesheet that generates the target data file. 
+  The exception is when a target element includes an xreflabel attribute, 
+  which overrides the gentext string as it would for an xref. 
+  -->
+  <obj element="table" href="xsl-processors" number="1.1" targetptr="xsl-processors">
+  <!-- 
+	Non-structural elements like tables and figures are recorded in obj (object) tags. 
+	The div elements can nest, but the obj elements do not. 
+  -->
+    <ttl>XSL Processors</ttl>
+    <xreftext>Table 1.1</xreftext>
+  </obj>
+  <div element="sect1" href="#xsl-arch" number="" targetptr="xsl-arch">
+    <ttl>DocBook XSL Architecture</ttl>
+    <xreftext>the section called “DocBook XSL Architecture”</xreftext>
+  </div>
+</div>

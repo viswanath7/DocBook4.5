@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formalpara PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+                      "http://www.docbook.org/xml/4.4/docbookx.dtd">  
+<formalpara>
+    <title>Demonstration of formal paragraph</title>
+    <para>
+        Had this been a real example, it would have made more sense as this para would have had something more meaningful.
+        <orderedlist numeration="upperroman">
+            <title>Just like in HTML, in DocBook an orderedlist is a list in which each entry is marked with a sequentially incremented label.</title>
+            <listitem>
+                <simpara>
+                    Simple paragraph - Please remember, only text goes here mate. :)
+                </simpara>
+            </listitem>
+            <listitem>
+                <simpara>
+                    Alright, let's put another list item just to demonstrate that we can.
+                </simpara>
+            </listitem>
+        </orderedlist>
+    </para>
+</formalpara>

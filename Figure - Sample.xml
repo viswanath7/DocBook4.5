@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formalpara PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+                      "http://www.docbook.org/xml/4.4/docbookx.dtd">
+<formalpara>
+    <title>
+        Figure is an illustration with a title. See an example here
+    </title>
+     <para>
+         <figure>
+             <title>Say 'Hoi' to android !</title>
+             <graphic fileref="figures/android.jpg"/>
+         </figure>
+     </para>
+</formalpara>

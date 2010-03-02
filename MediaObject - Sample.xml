@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formalpara PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+                      "http://www.docbook.org/xml/4.4/docbookx.dtd">
+<formalpara>
+  <title>mediaobject displays audio, video, image etc with additional textual description</title>
+  <para>
+      <mediaobject>
+          <videoobject>
+              <videodata fileref='film.avi'/>
+          </videoobject>
+          <audioobject>
+              <objectinfo>
+                  <title>Acordeonists</title>
+              </objectinfo>
+              <audiodata fileref="acordeon.wav"/>
+          </audioobject>
+          <imageobject>
+              <imagedata fileref='figures/Français.gif'/>
+          </imageobject>
+          <imageobject>
+              <imagedata fileref="figures/eiffeltower.png" align="center" format="PNG"/>
+          </imageobject>
+          <textobject>
+              <para>This video is shot in a Paris trip.
+              </para>
+              <warning>
+                  <para>
+                      It was shot with an amateur camera though. So, please accept my apologies for poor quality in advance. :P
+                  </para>
+              </warning>
+          </textobject>
+          <caption>
+              <para>Designed by Gustave Eiffel in 1889, The Eiffel Tower is one of the most widely recognised 
+                  buildings in the world.
+              </para>
+          </caption>
+      </mediaobject>
+  </para>
+</formalpara>

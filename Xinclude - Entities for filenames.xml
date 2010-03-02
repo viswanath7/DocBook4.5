@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN"
+                "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+                <!ENTITY intro              "Xinclude-Intro.xml">
+                <!ENTITY config             "Xinclude-Config.xml">
+                ]> 
+<book>
+    <title>User Guide</title>
+    <para>This guide shows you how to use the software.</para>
+    <xi:include  href="&intro;"    xmlns:xi="http://www.w3.org/2001/XInclude"/> 
+    <xi:include  href="&config;"   xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</book>

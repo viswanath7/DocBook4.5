@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+                      "http://www.docbook.org/xml/4.4/docbookx.dtd">
+<book id="ReferenceManual">
+    
+    <!-- Meta-Information -->
+    <bookinfo>
+        <title>DocBook: The Definitive Guide</title>
+        
+        <authorgroup> 
+            <author>
+                <firstname>Norman</firstname>
+                <surname>Walsh</surname>
+            </author>
+            <author>
+                <firstname>Richard</firstname>
+                <surname>Hamilton</surname>
+            </author>
+        </authorgroup>
+        
+        <copyright>
+            <year>2010</year>
+        </copyright>
+        
+        <edition>1 edition</edition>
+        
+        <isbn>
+            978-0596805029
+        </isbn>
+        
+        <publisher>
+            <publishername>O'Reilly Media</publishername>
+            <address></address>
+        </publisher>
+        
+        <pagenums>700</pagenums>
+        
+    </bookinfo>
+    
+    <dedication status="draft">
+        <simpara>To my Mum and Dad, for their long, long journey.</simpara>
+    </dedication>
+    
+    <!-- Navigational Component usually generated automatically by the presentation system and 
+        never have to be represented explicitly in the document source.  -->
+    <toc>
+        <!-- front-matter of the book -->
+        <tocfront pagenum="i">Preface</tocfront>
+        
+        <!-- the body of the book -->
+        <tocpart>
+            
+            <tocentry>Part I - XML: Documents and Data</tocentry>
+            
+            <!-- chapter-level ToC element for components in the main body -->
+            <tocchap>
+                <tocentry pagenum="1" linkend="chapter-01">Getting Started with SGML/XML</tocentry>
+                <toclevel1>
+                    <tocentry pagenum="1">HTML and SGML vs. XML</tocentry>
+                </toclevel1>
+                <toclevel1>
+                    <tocentry pagenum="3">How Does DocBook Fit In?</tocentry>
+                    <toclevel2>
+                        <tocentry pagenum="3">A Short DocBook History</tocentry>
+                    </toclevel2>
+                </toclevel1>
+                <!-- ... -->
+            </tocchap>
+            
+            <tocchap>
+                <!-- contains the title of an entry -->
+                <tocentry pagenum="30" linkend="chapter-02"/>
+            </tocchap>
+            
+            <tocchap>
+                <!-- contains the title of an entry -->
+                <tocentry linkend="chapter-03">Parsing DocBook Documents</tocentry>
+            </tocchap>
+            
+        </tocpart>
+        
+        <tocpart>
+            <tocentry>Part II - Metadata and XML</tocentry>
+        </tocpart>
+        
+        <tocpart>
+            <tocentry>Part III - That's all folks</tocentry>
+        </tocpart>
+        
+        <!-- back matter -->
+        <tocback pagenum="305">Bibliography</tocback>
+
+    </toc>
+     
+    <!-- Component > chapter-like element of a book -->
+    <preface>
+        <title>Who should read this book</title>
+        <para>
+            We wrote this book primarily to benefit software engineers who have
+            to design and build applications that use XML and to access documents
+            and data presented in an XML form.
+            <itemizedlist>
+                <listitem><para>Software engineers</para></listitem>
+                <listitem><para>Architects of software systems</para></listitem>
+                <listitem><para>Managers and team leaders</para></listitem>
+            </itemizedlist>
+            Of these three, the first two are probably the most important.
+        </para>
+    </preface>
+     
+    <!-- Division : The first hierarchical level below book -->
+    
+    <!-- Parts always introduce a forced page break -->
+    <part label="part 1">
+        <title>Part I - XML: Documents and Data</title>
+
+        <partintro>
+            <para>
+                The sections in Part I present introduction to DocBook.
+                See <systemitem role="url">http://www.docbook.org</systemitem>
+            </para>
+            
+            <literallayout>
+                <xref linkend="chapter-01"/>
+                <xref linkend="chapter-02"/>
+                <xref linkend="chapter-03"/>
+            </literallayout>
+            
+        </partintro>
+        
+        <chapter id="chapter-01">
+            <title>Getting Started with SGML/XML</title>
+            
+            <!-- Numbered sectioning elements that are properly nested -->   
+            <sect1>
+                <title>HTML and SGML vs. XML</title>
+                <para>Text</para>
+            </sect1>
+            <sect1>
+                <title>How Does DocBook Fit In?</title>
+                <para>Some textual information</para>
+                <sect2>
+                    <title>A Short DocBook History</title>
+                    <para> some text </para>
+                </sect2>
+            </sect1>
+        </chapter>
+        
+        <chapter id="chapter-02">
+            <title>
+                Creating DocBook Documents
+            </title>
+            <example id="sampleCode">
+                <title>"Hello World!"</title>
+                <programlisting>
+                    class HelloWorldApp 
+                    {
+                        public static void main(String[] args) 
+                        {
+                        System.out.println("Hello World!"); // Display the string.
+                        }
+                    }
+                </programlisting>
+            </example>
+            
+        </chapter>
+        
+        <chapter id="chapter-03">
+            <title>Parsing DocBook Documents</title>
+            <para>
+                <xref linkend="sampleCode"/>
+                <remark>Some details are still a bit shaky</remark>
+            </para>
+        </chapter>
+        
+    </part>
+    
+    <part>
+        
+        <title>Part II - Metadata and XML</title>
+        
+        <chapter>
+            <title>You already know how it works</title>
+            <itemizedlist>
+                <listitem>
+                    <simpara>some text</simpara>
+                </listitem>
+                <listitem>
+                    <simpara>some text</simpara>
+                </listitem>
+            </itemizedlist>
+        </chapter>  
+    </part>
+    
+    <part>
+        <title>Part III - That's all folks</title>
+        <glossary>
+            <glossaryinfo>
+                <orgname>ABCD company</orgname>
+            </glossaryinfo>
+            
+            <glossdiv>
+                <title>E</title> 
+                <glossentry id="xml"><glossterm>Extensible Markup Language</glossterm>
+                    <acronym>XML</acronym>
+                    <glossdef>
+                        <para>Some reasonable definition here.</para>
+                        <glossseealso otherterm="sgml">SGML</glossseealso>
+                    </glossdef>
+                </glossentry>
+            </glossdiv>
+            
+            <glossdiv>
+                <title>S</title>
+                <glossentry>
+                    <glossterm>SGML</glossterm>
+                    <glosssee otherterm="sgml"/>
+                </glossentry>
+                
+                <glossentry id="sgml">
+                    <glossterm>Standard Generalized Markup Language</glossterm>
+                    <acronym>SGML</acronym>
+                    <abbrev>ISO 8879:1986</abbrev>
+                    <glossdef>
+                        <para>Some reasonable definition here.</para>
+                        <glossseealso otherterm="xml">XML</glossseealso>
+                    </glossdef>
+                </glossentry>
+                
+            </glossdiv>
+        </glossary>
+    </part>
+    
+</book>

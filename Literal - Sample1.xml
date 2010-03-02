@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE formalpara PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+                      "http://www.docbook.org/xml/4.4/docbookx.dtd">
+<formalpara>
+    <title>Demonstration of literals</title>
+    <para>
+        <literal>
+            A literal is some specific piece of data, taken literally, from a computer system. 
+            It is similar in some ways to userinput and computeroutput, but is somewhat more of a general classification. 
+            The sorts of things that constitute literals varies by domain.
+        </literal>
+        <itemizedlist>
+            <listitem>
+                <para>
+                    <emphasis>
+                        Example 1 - ulink 
+                    </emphasis> 
+                    ulink is used to address its target by means of a URL.
+                    For more information, see 
+                    <ulink url="http://www.docbook.org/tdg/en/html/ulink.html"><citetitle>the documentation</citetitle></ulink>.
+                </para>
+            </listitem>
+            <listitem>
+                <para>
+                    <emphasis>
+                        Example 2 - Program listing. 
+                    </emphasis>  
+                    It is a verbatim environment for program source or source fragment listings. whitespace and linebreaks within this element are significant.
+                    
+                    <example>
+                        <title>Java program listing</title>
+                        <programlisting linenumbering="numbered" startinglinenumber="5">
+                            public class HelloWorld 
+                            {
+                                public static void main(String args[]) 
+                                {
+                                    System.out.println(&quot;Hello World!&quot;);
+                                }
+                            }
+                        </programlisting>
+                    </example>
+
+                    
+                    <example>
+                        <title>xml code listing</title>
+                        <programlisting role="xml">
+                            &lt;xs:attribute name="src" type="xs:anyURI" />
+                        </programlisting>
+                    </example>
+
+                </para>
+            </listitem>
+            
+        </itemizedlist>
+        
+    </para>
+</formalpara>

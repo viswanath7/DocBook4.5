@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE para PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+                      "http://www.docbook.org/xml/4.4/docbookx.dtd">
+<para>
+    
+    This paragraph contains an itemizedlist. An itemized list is one in which each entry is marked with a bullet or other dingbat
+    
+    <itemizedlist mark="opencircle">
+        <title>The component suffered from three failings:</title>
+        <listitem>
+            <para>It was slow</para>
+        </listitem>
+        <listitem>
+            <para>It ran hot</para>
+        </listitem>
+        <listitem override="bullet">
+            <para>It didn't actually work</para>
+        </listitem>
+    </itemizedlist>
+    Of these three, the last was probably the most important. 
+</para>
